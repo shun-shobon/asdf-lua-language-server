@@ -10,8 +10,6 @@ source "${plugin_dir}/lib/utils.bash"
 
 mkdir -p "$ASDF_DOWNLOAD_PATH"
 
-local platform architecture
-
 case "$(uname -s)" in
 "Linux")
   platform="linux"
